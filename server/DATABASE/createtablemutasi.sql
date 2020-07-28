@@ -1,0 +1,1 @@
+CREATE TABLE `server`.`mutasi` ( `idmutasi` VARCHAR(16) NOT NULL , `tahun` INT(8) NOT NULL , `tanggal` INT(2) NOT NULL , `jam` INT(2) NOT NULL , `nominal` INT(16) NOT NULL , `pelanggan` VARCHAR(16) NOT NULL , `product` TEXT NOT NULL , `kembalian` INT(16) NOT NULL , `uangpelanggan` INT(16) NOT NULL , PRIMARY KEY (`idmutasi`(16))) ENGINE = MyISAM; 
